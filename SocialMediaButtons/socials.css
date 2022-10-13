@@ -1,0 +1,92 @@
+/* General styling */
+/* line 3, ../Socials/socials.scss */
+
+/*
+@import ; 
+*/
+
+* {
+  box-sizing: border-box; }
+
+/* line 7, ../Socials/socials.scss */
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Lato", sans-serif;
+  margin: 0; }
+
+/* line 16, ../Socials/socials.scss */
+h2 {
+  text-align: center; }
+
+/* Assignemnt styling */
+/* line 21, ../Socials/socials.scss */
+ul {
+  margin: 0;
+  list-style: none; }
+
+/* Icons dimension*/
+/* Nest from Ul to socials <name>*/
+/* line 30, ../Socials/socials.scss */
+ul li {
+  margin: 0;
+  padding: 0;
+  width: 50px;
+  height: 50px; }
+  /* line 35, ../Socials/socials.scss */
+  ul li .socials-container {
+    position: fixed;
+    top: 500px;
+    right: -150px;
+    list-style-type: none;
+    padding: 0;
+    transform: translateY(-10%);
+    width: 270px; }
+    /* line 43, ../Socials/socials.scss */
+    ul li .socials-container .socials {
+      align-items: center;
+      display: flex;
+      transition: 0.5s ease-in-out;
+      width: 260px;
+      color: #fff;
+      padding: 20px; }
+      /* line 50, ../Socials/socials.scss */
+      ul li .socials-container .socials:hover {
+        transform: translateX(-70%); }
+      /* line 54, ../Socials/socials.scss */
+      ul li .socials-container .socials .blog {
+        background-color: #e17b77; }
+      /* line 57, ../Socials/socials.scss */
+      ul li .socials-container .socials .facebook {
+        background-color: #3b5998; }
+      /* line 60, ../Socials/socials.scss */
+      ul li .socials-container .socials .twitter {
+        background-color: #00aced; }
+      /* line 63, ../Socials/socials.scss */
+      ul li .socials-container .socials .github {
+        background-color: #333; }
+      /* line 66, ../Socials/socials.scss */
+      ul li .socials-container .socials .linkedin {
+        background-color: #007bb6; }
+
+/* I & A are sibs*/
+/* line 73, ../Socials/socials.scss */
+.socials i {
+  color: #fff;
+  font-size: 24px;
+  padding: 15px;
+  text-align: center;
+  width: 60px;
+  height: 60px; }
+
+/* line 82, ../Socials/socials.scss */
+.socials a {
+  color: #fff;
+  padding: 15px;
+  font-size: 15px;
+  overflow: hidden;
+  white-space: nowrap; }
+
+/*# sourceMappingURL=socials.css.map */
